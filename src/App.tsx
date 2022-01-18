@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
 import TodoItem from './TodoItem';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello tailwindcss!
-      </h1>
+      <Header />
       <TodoItem title={'practice tailwind'} />
     </>
   );
